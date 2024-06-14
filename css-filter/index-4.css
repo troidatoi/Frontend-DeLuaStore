@@ -1,0 +1,24 @@
+.page-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+    .page-wrapper {
+        display: block
+    }
+}
+.header {
+    width: 100%;
+    background-color: #fff
+}
+.header-4 .header-top {
+    font-weight: 400;
+    font-size: 1.4rem;
+    background-color: #f5f6f9;
+    margin-bottom: 0;
+    letter-spacing: -.01em
+}
+
